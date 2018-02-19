@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<OperacionesBancarias>
+    <operacion fechahora="2017-09-12 16:17:24">
+        <numcuenta>ES11-1111-2222-3333-4444-5555</numcuenta>
+        <propietario>Pepe Perez Perez</propietario>
+        <tipo>Ingreso</tipo>
+        <cantidad>100,25€</cantidad>
+        <saldo>1256,56€</saldo>
+    </operacion>
+    <operacion fechahora="2017-09-20 09:25:45">
+        <numcuenta>ES22-1234-5678-1212-3434-5656</numcuenta>
+        <propietario>Ana Lopez Lopez</propietario>
+        <tipo>Ingreso</tipo>
+        <cantidad>125,25€</cantidad>
+        <saldo>2500,00€</saldo>
+    </operacion>
+    <operacion fechahora="2017-09-20 12:38:49">
+        <numcuenta>ES11-1111-2222-3333-4444-5555</numcuenta>
+        <propietario>Pepe Perez Perez</propietario>
+        <tipo>Extraccion</tipo>
+        <cantidad>25,00€</cantidad>
+        <saldo>1231,56€</saldo>
+    </operacion>
+    <operacion fechahora="2017-09-23 13:13:13">
+        <numcuenta>ES45-9876-5432-1234-5678-1212</numcuenta>
+        <propietario>Luis Garcia Fernandez</propietario>
+        <tipo>Ingreso</tipo>
+        <cantidad>350,50€</cantidad>
+        <saldo>500,00€</saldo>
+    </operacion>
+    <operacion fechahora="2017-09-25 13:11:29">
+        <numcuenta>ES11-2323-4545-1212-5665-7896</numcuenta>
+        <propietario>Maria Gomez Ramirez</propietario>
+        <tipo>Extraccion</tipo>
+        <cantidad>150,00€</cantidad>
+        <saldo>6789,65€</saldo>
+    </operacion>
+</OperacionesBancarias>
