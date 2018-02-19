@@ -67,7 +67,7 @@ public class Lector {
 
     /**
      * Metodo Lector(), que realiza el tratamiento del lector SAX.
-     * Obteniendo una String con los valores de los atributos de la Operacion separados por punto y como.
+     * Obteniendo una String con los valores de los atributos de la Operacion separados por punto y coma.
      * Los procesa creando un array de Operacion como dato de salida.     *
      * @return Operacion[], devuelve un array de Operacion sobre el contenido del xml.
      */
