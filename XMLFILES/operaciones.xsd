@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+<xs:schema version="1.0"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           elementFormDefault="qualified">
+<xsd:element name="OperacionesBancarias">
+<xsd:complexType>
+<xsd:choice maxOccurs="unbounded">
+<xsd:element name="operacion" minOccurs="0" maxOccurs="unbounded">
+ 
+<xsd:complexType>
+   
+
+        
+<xsd:sequence>
+     
+<xsd:element name="numcuenta" type="xsd:string" />
+<xsd:element name="propietario" type="xsd:string" />
+<xsd:element name="tipo" type="xsd:string" />
+<xsd:element name="importe" type="xsd:decimal" />
+<xsd:element name="saldo" type="xsd:decimal" />
+
+</xsd:sequence>
+<xsd:attribute name="fechahora" type="xsd:string"/>
+   
+</xsd:complexType>
+ 
+</xsd:element>
+</xsd:choice>
+</xsd:complexType>
+</xsd:element>
+</xs:schema>
